@@ -3,6 +3,7 @@ import { join } from 'path';
 import { parse } from '../../compiled/dotenv';
 
 export function loadEnv(opts: { cwd: string; envFile: string }) {
+  debugger;
   const files = [
     join(opts.cwd, opts.envFile),
     join(opts.cwd, `${opts.envFile}.local`),

@@ -40,6 +40,7 @@ umi dev
 PORT=8888 umi dev
 `,
     async fn() {
+      debugger;
       logger.info(chalk.cyan.bold(`Umi v${api.appData.umi.version}`));
       const enableVite = !!api.config.vite;
 

@@ -242,6 +242,7 @@ export class Service {
 
     // loadEnv
     this.stage = ServiceStage.init;
+    debugger;
     loadEnv({ cwd: this.cwd, envFile: '.env' });
     // get pkg from package.json
     let pkg: Record<string, string | Record<string, any>> = {};

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "umi build",
-    "dev": "umi dev",
+    "dev": "umi dev --inspect",
     "preview": "umi preview",
     "setup": "umi setup",
     "start": "npm run dev"
